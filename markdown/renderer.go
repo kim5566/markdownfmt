@@ -102,9 +102,7 @@ func (r *render) renderNode(node ast.Node, entering bool) (ast.WalkStatus, error
 			_, _ = r.w.Write(newLineChar)
 		case *ast.List, *ast.HTMLBlock:
 			_, _ = r.w.Write(newLineChar)
-			if node.HasBlankPreviousLines() {
-				_, _ = r.w.Write(newLineChar)
-			}
+			_, _ = r.w.Write(newLineChar)
 		case *ast.ListItem:
 			// TODO(bwplotka): Handle tight/loose rule explicitly.
 			// See: https://github.github.com/gfm/#loose
