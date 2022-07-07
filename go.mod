@@ -1,4 +1,4 @@
-module github.com/Kunde21/markdownfmt/v2
+module github.com/kim5566/markdownfmt/v2
 
 require (
 	github.com/mattn/go-runewidth v0.0.9
