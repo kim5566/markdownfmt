@@ -1,0 +1,17 @@
+# github.com/Kunde21/markdownfmt/v2 v2.1.0
+github.com/Kunde21/markdownfmt/v2/markdown
+github.com/Kunde21/markdownfmt/v2/markdownfmt
+# github.com/mattn/go-runewidth v0.0.9
+github.com/mattn/go-runewidth
+# github.com/pkg/errors v0.9.1
+github.com/pkg/errors
+# github.com/yuin/goldmark v1.3.5
+github.com/yuin/goldmark
+github.com/yuin/goldmark/ast
+github.com/yuin/goldmark/extension
+github.com/yuin/goldmark/extension/ast
+github.com/yuin/goldmark/parser
+github.com/yuin/goldmark/renderer
+github.com/yuin/goldmark/renderer/html
+github.com/yuin/goldmark/text
+github.com/yuin/goldmark/util
